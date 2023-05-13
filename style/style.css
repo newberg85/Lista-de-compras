@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e9ecff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.titulo span {
+    font-family: 'Ubuntu';
+}
+
+main {
+    width: 50%;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.card .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputline {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputline label {
+    font-size: 1.3rem;
+    font-family: 'Ubuntu';
+}
+
+.inputline input {
+    border-radius: 4px;
+    padding: 1.3rem;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu';
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 0px 5px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.23);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.23);
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    font-family: 'Ubuntu';
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    width: 11rem;
+    color: #ffffff;
+    background: #90d0bb;
+    border: none;
+    border-radius: 8px;
+    padding: 1.3rem;
+}
+
+.content {
+  margin-top: 1rem;
+}
+
+#listaItens {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+#produto {
+    width: 70%;
+    border-radius: 8px;
+    padding: 1.5rem;
+    -webkit-box-shadow: 0px 5px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.23);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.23);
+}
+#quantidade {
+    border-radius: 8px;
+    width: 10%;
+    padding: 1.5rem;
+    text-align: center;
+    -webkit-box-shadow: 0px 5px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.23);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.23);
+}
+
+#btn-delete {
+    background: red;
+    width: 20%;
+    padding: 1.5rem;
+    margin-top: 0;
+}
+
+#lis {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media screen and (min-width: 330px) and (max-width: 820px) {
+    body {
+        background: #ffffff;
+    }
+    main {
+        width: 90%;
+        background: #ffffff;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    button {
+        font-family: 'Ubuntu';
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 1rem;
+        width: 100%;
+        color: #ffffff;
+        background: #90d0bb;
+        border: none;
+        border-radius: 8px;
+        padding: 1.3rem;
+    }
+    #produto {
+        width: 60%;
+    }
+    #btn-delete {
+        width: 30%;
+    }
+}

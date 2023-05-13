@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <main>
+        <div class="titulo">
+            <h2>Produtos</h2>
+            <span>Lista de produtos.</span>
+        </div>
+
+        <div class="card">
+
+            <div class="inputs">
+                <div class="inputline">
+                    <label>Produto</label>
+                    <input type="text" id="inputProduto" placeholder="Nome do produto">
+                </div>
+    
+                <div class="inputline">
+                    <label>quantidade</label>
+                    <input type="text" id="inputQuantidade" placeholder="Quantidade do produto">
+                </div>   
+            </div>
+
+            <div class="buttons">
+                <button onclick="adicionar_item()">Adicionar</button>
+            </div>
+
+            <div class="content" id="item">
+                    <ul id="listaItens">
+                        <!--<li id="produto">carne</li>
+                        <li id="quantidade">12</li>>-->
+                    </ul>
+            </div>
+
+        </div>
+
+    </main>
+    
+
+
+    <!--==== JS ====-->
+    <script src="js/script1.js"></script>
+</body>
+
+</html>
