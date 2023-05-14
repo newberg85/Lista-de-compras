@@ -18,7 +18,7 @@ Desafio 1 - 7 days of code
 
 
 ## overview
-O projeto "Lista de Compras" é uma aplicação simples em JavaScript que permite ao usuário adicionar itens a uma lista de compras. Ele utiliza um array para armazenar os itens da lista e fornece funcionalidades de adicionar e excluir itens.
+O projeto "Lista de Compras", foi criado para o desafio de 7 dias de código, é uma aplicação simples em JavaScript que permite ao usuário adicionar itens a uma lista de compras. Ele utiliza um array para armazenar os itens da lista e fornece funcionalidades de adicionar e excluir itens.
 
 A estrutura do projeto consiste em um arquivo HTML e um arquivo JavaScript. No HTML, temos campos de entrada para o nome do produto e quantidade, um botão "Adicionar" e uma lista "ul" com dois "li" vazios para exibir os itens. O JavaScript controla as funcionalidades da lista e a interação com o usuário.
   
